@@ -1,0 +1,8 @@
+.venv/
+build/
+dist/
+__pycache__/
+*.pyc
+*.spec
+.idea/
+airscroll_api_key.txt

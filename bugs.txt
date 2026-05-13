@@ -1,0 +1,191 @@
+(.venv) PS C:\Users\Agash Verma\PycharmProjects\airscroll> .\.venv\Scripts\python.exe -m pip install mediapipe==0.10.21
+Collecting mediapipe==0.10.21
+  Obtaining dependency information for mediapipe==0.10.21 from https://files.pythonhosted.org/packages/c5/1f/0b2bc80d76d996801113c800e386f7b33aeaec663e2e8ee83695c0dfbde8/mediapipe-0.10.21-cp311-cp311-win_amd64.whl.metadata
+  Downloading mediapipe-0.10.21-cp311-cp311-win_amd64.whl.metadata (10 kB)
+Requirement already satisfied: absl-py in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (2.4.0)
+Requirement already satisfied: attrs>=19.1.0 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (26.1.0)
+Requirement already satisfied: flatbuffers>=2.0 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (25.12.19)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/70/aa/dfac6d72cc35bc07e7587115b6946e333ef4ccb2e6cd26ecf639438c5d26/jax-0.10.0-py3-none-any.whl.metadata
+  Downloading jax-0.10.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/d2/36/fbc303c0a41ac26daceeba0a9884d9206657e8eb1981f3f76da17f1ecc7f/jaxlib-0.10.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.10.0-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Requirement already satisfied: matplotlib in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (3.10.9)
+Collecting numpy<2 (from mediapipe==0.10.21)
+  Obtaining dependency information for numpy<2 from https://files.pythonhosted.org/packages/3f/6b/5610004206cf7f8e7ad91c5a85a8c71b2f2f8051a0c0c4d5916b76d6cbb2/numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata
+  Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 75.6 kB/s eta 0:00:00
+Requirement already satisfied: opencv-contrib-python in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (4.13.0.92)
+Collecting protobuf<5,>=4.25.3 (from mediapipe==0.10.21)
+  Obtaining dependency information for protobuf<5,>=4.25.3 from https://files.pythonhosted.org/packages/f3/16/42a5c7f1001783d2b5bfcecde10127f09010f78982c86ae409122ce3ece6/protobuf-4.25.9-cp310-abi3-win_amd64.whl.metadata
+  Downloading protobuf-4.25.9-cp310-abi3-win_amd64.whl.metadata (541 bytes)
+Requirement already satisfied: sounddevice>=0.4.4 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from mediapipe==0.10.21) (0.5.5)
+Collecting sentencepiece (from mediapipe==0.10.21)
+  Obtaining dependency information for sentencepiece from https://files.pythonhosted.org/packages/32/b8/f709977f5fda195ae1ea24f24e7c581163b6f142b1005bc3d0bbfe4d7082/sentencepiece-0.2.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading sentencepiece-0.2.1-cp311-cp311-win_amd64.whl.metadata (10 kB)
+Requirement already satisfied: cffi in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from sounddevice>=0.4.4->mediapipe==0.10.21) (2.0.0)
+Collecting ml_dtypes>=0.5.0 (from jax->mediapipe==0.10.21)
+  Obtaining dependency information for ml_dtypes>=0.5.0 from https://files.pythonhosted.org/packages/b4/24/70bd59276883fdd91600ca20040b41efd4902a923283c4d6edcb1de128d2/ml_dtypes-0.5.4-cp311-cp311-win_amd64.whl.metadata
+  Downloading ml_dtypes-0.5.4-cp311-cp311-win_amd64.whl.metadata (9.2 kB)
+INFO: pip is looking at multiple versions of jax to determine which version is compatible with other requirements. This could take a while.
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/17/9c/e897231c880f69e32251d3b1145894d7a04e4342d9bef8d29644c440d11b/jax-0.9.2-py3-none-any.whl.metadata
+  Downloading jax-0.9.2-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/ef/8b/8e2c2059ebe7894abbf8e35077e2f528c35c499dd710cc89508f941117ee/jaxlib-0.9.2-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.9.2-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/80/e4/88778c6a23b65224e5088e68fd0924e5bde2196a26e76edb3ea3543fed6a/jax-0.9.1-py3-none-any.whl.metadata
+  Downloading jax-0.9.1-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/bc/1b/bc1d41fb12e21449364fb76dd50f37b7e22048685f657796f2aadf76157a/jaxlib-0.9.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.9.1-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/57/1e/63ac22ec535e08129e16cb71b7eeeb8816c01d627ea1bc9105e925a71da0/jax-0.9.0.1-py3-none-any.whl.metadata
+  Downloading jax-0.9.0.1-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/55/fc/fa3c07d833a60cfb928f7a727fef25059e2e9af1dbc5d09821ad3a728292/jaxlib-0.9.0.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.9.0.1-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/d8/99/91fd58d495f03495e93b3f6100336d7a1df212aa90ad37d1322b8bb7df71/jax-0.9.0-py3-none-any.whl.metadata
+  Downloading jax-0.9.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/85/75/abc1ad61eb08b8f47a3f752d9ab1ea89cdab93a48a279a3ea650ab0be47f/jaxlib-0.9.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.9.0-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/b6/d2/65cd40732c412218f71472aa24b037d3f086960c09eb643351edf3f78492/jax-0.8.3-py3-none-any.whl.metadata
+  Downloading jax-0.8.3-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/dd/4c/7871988a023c84197a7de833d8397c45ec7b580e15623b68f674c927b540/jaxlib-0.8.3-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.8.3-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/a8/f7/ae4ecf183d9693cd5fcce7ee063c5e54f173b66dc80a8a79951861e1b557/jax-0.8.2-py3-none-any.whl.metadata
+  Downloading jax-0.8.2-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/e7/f1/56d830c7fcf1736cbfb11d8cf79c1932f826f319d2467becb02933df3ba9/jaxlib-0.8.2-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.8.2-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/f9/e7/19b8cfc8963b2e10a01a4db7bb27ec5fa39ecd024bc62f8e2d1de5625a9d/jax-0.8.1-py3-none-any.whl.metadata
+  Downloading jax-0.8.1-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/52/b2/4b8507d23cfd9e895dce0204f684dc9db4f746da5a46c2e586a50fb3f1ee/jaxlib-0.8.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.8.1-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+INFO: pip is still looking at multiple versions of jax to determine which version is compatible with other requirements. This could take a while.
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/b3/77/4e6c9a54247810eff8ac8a1af7dc1be0779b52df0d82f3fc8586061914f3/jax-0.8.0-py3-none-any.whl.metadata
+  Downloading jax-0.8.0-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/7b/4e/ea4540fec3388d9984fce3afbed99a6d9ab14a40a9c4745071e46ff0fa50/jaxlib-0.8.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.8.0-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/d5/e6/5fd0f6fff79eb47469ff9c4fa27125b661517a2fbf8884689b02e9fdfaa8/jax-0.7.2-py3-none-any.whl.metadata
+  Downloading jax-0.7.2-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/28/03/199d9ce30981c6c8d2ae3a442d2fc3eeb1f31fa6aab9620ff1d3d3fdfd7f/jaxlib-0.7.2-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.7.2-cp311-cp311-win_amd64.whl.metadata (1.4 kB)
+Collecting jax (from mediapipe==0.10.21)
+  Obtaining dependency information for jax from https://files.pythonhosted.org/packages/83/81/793d78c91b0546b3b1f08e55fdd97437174171cd7d70e46098f1a4d94b7b/jax-0.7.1-py3-none-any.whl.metadata
+  Downloading jax-0.7.1-py3-none-any.whl.metadata (13 kB)
+Collecting jaxlib (from mediapipe==0.10.21)
+  Obtaining dependency information for jaxlib from https://files.pythonhosted.org/packages/f7/b7/0f0df407518691099d659ba6e19db01320dfb58e49d80594eaddd57d77c1/jaxlib-0.7.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading jaxlib-0.7.1-cp311-cp311-win_amd64.whl.metadata (1.3 kB)
+Collecting opt_einsum (from jax->mediapipe==0.10.21)
+  Obtaining dependency information for opt_einsum from https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl.metadata
+  Downloading opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting scipy>=1.12 (from jax->mediapipe==0.10.21)
+  Obtaining dependency information for scipy>=1.12 from https://files.pythonhosted.org/packages/95/da/0d1df507cf574b3f224ccc3d45244c9a1d732c81dcb26b1e8a766ae271a8/scipy-1.17.1-cp311-cp311-win_amd64.whl.metadata
+  Downloading scipy-1.17.1-cp311-cp311-win_amd64.whl.metadata (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.0/61.0 kB 1.6 MB/s eta 0:00:00
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (4.62.1)
+Requirement already satisfied: kiwisolver>=1.3.1 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (1.5.0)
+Requirement already satisfied: packaging>=20.0 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (26.2)
+Requirement already satisfied: pillow>=8 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (12.2.0)
+Requirement already satisfied: pyparsing>=3 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (3.3.2)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from matplotlib->mediapipe==0.10.21) (2.9.0.post0)
+INFO: pip is looking at multiple versions of opencv-contrib-python to determine which version is compatible with other requirements. This could take a while.
+Collecting opencv-contrib-python (from mediapipe==0.10.21)
+  Obtaining dependency information for opencv-contrib-python from https://files.pythonhosted.org/packages/de/f8/c94c0ef4b525fc672f3692384aa6d971292b02de8fbf880d9e158890c226/opencv_contrib_python-4.13.0.90-cp37-abi3-win_amd64.whl.metadata
+  Downloading opencv_contrib_python-4.13.0.90-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Obtaining dependency information for opencv-contrib-python from https://files.pythonhosted.org/packages/7f/8c/ec631100261b0fca25cafd1e1a06592e50b3cda8aa08e7c4c14d7b4d7115/opencv_contrib_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata
+  Downloading opencv_contrib_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (20 kB)
+  Obtaining dependency information for opencv-contrib-python from https://files.pythonhosted.org/packages/0d/c6/146487546adc4726f0be591a65b466973feaa58cc3db711087e802e940fb/opencv_contrib_python-4.11.0.86-cp37-abi3-win_amd64.whl.metadata
+  Downloading opencv_contrib_python-4.11.0.86-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Requirement already satisfied: six>=1.5 in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from python-dateutil>=2.7->matplotlib->mediapipe==0.10.21) (1.17.0)
+Requirement already satisfied: pycparser in c:\users\agash verma\pycharmprojects\airscroll\.venv\lib\site-packages (from cffi->sounddevice>=0.4.4->mediapipe==0.10.21) (3.0)
+Downloading mediapipe-0.10.21-cp311-cp311-win_amd64.whl (51.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.0/51.0 MB 2.8 MB/s eta 0:00:00
+Downloading numpy-1.26.4-cp311-cp311-win_amd64.whl (15.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 15.8/15.8 MB 1.9 MB/s eta 0:00:00
+Downloading protobuf-4.25.9-cp310-abi3-win_amd64.whl (413 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 413.9/413.9 kB 6.5 MB/s eta 0:00:00
+Downloading jax-0.7.1-py3-none-any.whl (2.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.8/2.8 MB 2.7 MB/s eta 0:00:00
+Downloading jaxlib-0.7.1-cp311-cp311-win_amd64.whl (61.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━ 56.8/61.2 MB 1.8 MB/s eta 0:00:03
+ERROR: Exception:
+Traceback (most recent call last):
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 438, in _error_catcher
+    yield
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 561, in read
+    data = self._fp_read(amt) if not fp_closed else b""
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 527, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py", line 90, in read
+    data = self.__fp.read(amt)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\http\client.py", line 473, in read
+    s = self.fp.read(amt)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\cli\base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\cli\req_command.py", line 248, in wrapper
+    return func(self, options, args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\commands\install.py", line 377, in run
+    requirement_set = resolver.resolve(
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\resolution\resolvelib\resolver.py", line 161, in resolve
+    self.factory.preparer.prepare_linked_requirements_more(reqs)
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\operations\prepare.py", line 565, in prepare_linked_requirements_more
+    self._complete_partial_requirements(
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\operations\prepare.py", line 479, in _complete_partial_requirements
+    for link, (filepath, _) in batch_download:
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\network\download.py", line 183, in __call__
+    for chunk in chunks:
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\cli\progress_bars.py", line 53, in _rich_progress_bar
+    for chunk in iterable:
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_internal\network\utils.py", line 63, in response_chunks
+    for chunk in response.raw.stream(
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 622, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 560, in read
+    with self._error_catcher():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Agash Verma\PycharmProjects\airscroll\.venv\Lib\site-packages\pip\_vendor\urllib3\response.py", line 443, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.")
+pip._vendor.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out.
+
+[notice] A new release of pip is available: 23.2.1 -> 26.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip

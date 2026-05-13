@@ -1,0 +1,34 @@
+{
+  "THUMB": {
+    "software": "youtube",
+    "enabled": true
+  },
+  "INDEX": {
+    "software": "excel",
+    "enabled": true
+  },
+  "PEACE": {
+    "software": "screenshot",
+    "enabled": true
+  },
+  "FIST": {
+    "software": "none",
+    "enabled": true
+  },
+  "PALM": {
+    "software": "closeall",
+    "enabled": true
+  },
+  "PINCH": {
+    "software": "screenshot",
+    "enabled": true
+  },
+  "ROCK": {
+    "software": "mycomputer",
+    "enabled": true
+  },
+  "THREE": {
+    "software": "diskd",
+    "enabled": true
+  }
+}

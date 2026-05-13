@@ -1,0 +1,34 @@
+{
+  "THUMB": {
+    "software": "chrome",
+    "enabled": true
+  },
+  "INDEX": {
+    "software": "powerpoint",
+    "enabled": true
+  },
+  "PEACE": {
+    "software": "__show_apps__",
+    "enabled": true
+  },
+  "FIST": {
+    "software": "__navigate__",
+    "enabled": true
+  },
+  "PALM": {
+    "software": "__close_app__",
+    "enabled": true
+  },
+  "PINCH": {
+    "software": "redo",
+    "enabled": true
+  },
+  "ROCK": {
+    "software": "mycomputer",
+    "enabled": true
+  },
+  "THREE": {
+    "software": "key_down",
+    "enabled": true
+  }
+}
