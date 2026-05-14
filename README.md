@@ -87,3 +87,8 @@ pyinstaller --onedir --windowed --icon=airscroll_icon.ico update.py
 ## Author
 
 vaibhav kaushik
+
+<img width="1920" height="1020" alt="GUI of Airscroll" src="https://github.com/user-attachments/assets/e8677346-8eb6-4040-bcaa-d5b576c3741b" />
+
+
+
